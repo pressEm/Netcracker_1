@@ -28,11 +28,6 @@ public class InternetContract extends Contract {
         this.connectionSpeed = speed;
     }
 
-    @Override
-    public int getID() {
-        return super.getID();
-    }
-
     public int getConnectionSpeed() {
         return connectionSpeed;
     }
