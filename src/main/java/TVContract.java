@@ -17,4 +17,16 @@ public class TVContract extends Contract {
         super(id, start, end, num, owner);
         this.channels = channels;
     }
+
+    @Override
+    public String toString() {
+        return "TVContract {" +
+                "id=" + super.getID() +
+                ", start=" + super.getStart() +
+                ", end=" + super.getEnd() +
+                ", num=" + super.getNum() +
+                ", owner=" + super.getOwner().getName() +
+                ", channels=" + channels +
+                '}';
+    }
 }

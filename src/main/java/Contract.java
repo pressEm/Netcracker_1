@@ -68,6 +68,14 @@ public abstract class Contract implements IContract {
     }
 
     /**
+     * Function for getting the field value {@link Contract#num}
+     * @return contract id
+     */
+
+    public int getNum() {
+        return this.num;
+    }
+    /**
      * Assign an {@link Contract#owner}.
      * @param owner
      */
@@ -90,10 +98,11 @@ public abstract class Contract implements IContract {
      */
     @Override
     public String toString() {
-        return "Contract{" +
-                "start=" + start +
+        return "Contract {" +
+                "id=" + id +
+                ", start=" + start +
                 ", end=" + end +
-                ", id=" + id +
+                ", num=" + num +
                 ", owner=" + owner +
                 '}';
     }

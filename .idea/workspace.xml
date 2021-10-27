@@ -1,39 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3dbae84-2b27-45f2-8937-e9fdfc8bbaf8" name="Default Changelist" comment="second">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f3dbae84-2b27-45f2-8937-e9fdfc8bbaf8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IContract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/InternetContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InternetContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MobileContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MobileContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyArrayIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyContractIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyContractList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TVContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TVContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyArrayListTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Contract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Contract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IContract.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/InternetContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InternetContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/net1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MobileContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MobileContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyArrayIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TVContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TVContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ContractTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContractTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyArrayListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PersonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyContractList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyContractList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +75,14 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyContractListTest.add">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="net1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyContractListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="net1" />
       <option name="PACKAGE_NAME" value="" />
@@ -140,30 +123,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyContractListTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="net1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyContractListTest" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.MyContractListTest.remove" />
-      <item itemvalue="JUnit.MyContractListTest.testAdd" />
       <item itemvalue="JUnit.MyContractListTest.get" />
       <item itemvalue="JUnit.MyContractListTest.size" />
       <item itemvalue="JUnit.MyContractListTest.add" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MyContractListTest.add" />
         <item itemvalue="JUnit.MyContractListTest.size" />
         <item itemvalue="JUnit.MyContractListTest.get" />
         <item itemvalue="JUnit.MyContractListTest.remove" />
-        <item itemvalue="JUnit.MyContractListTest.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +163,14 @@
       <option name="presentableId" value="Default" />
       <updated>1634539455175</updated>
     </task>
+    <task id="LOCAL-00001" summary="second">
+      <created>1635339366668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635339366669</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -213,10 +194,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1635322412652" />
-    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1635320244881">
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1635339961134">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1635320244881" />
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1635339961134" />
     <state x="532" y="285" width="403" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1635272345614">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -237,22 +218,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1635272569619" />
-    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1635338434490">
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1635340081365">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1635338434490" />
-    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1635338434489">
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1635340081365" />
+    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1635340081365">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1635338434489" />
-    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1635338434488">
+    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1635340081365" />
+    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1635340081365">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1635338434488" />
-    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1635338434489">
+    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1635340081365" />
+    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1635340081365">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1635338434489" />
+    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1635340081365" />
     <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1635322427550">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

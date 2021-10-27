@@ -19,6 +19,6 @@ public class Main {
         for (Contract c : list) {
             System.out.println(c);
         }
-        System.out.println(list.size());
+        System.out.println("Number of contracts: " + list.size());
     }
 }

@@ -63,4 +63,18 @@ public class MobileContract extends Contract {
     public int getGb() {
         return gb;
     }
+
+    @Override
+    public String toString() {
+        return "MobileContract {" +
+                "id=" + super.getID() +
+                ", start=" + super.getStart() +
+                ", end=" + super.getEnd() +
+                ", num=" + super.getNum() +
+                ", owner=" + super.getOwner().getName() +
+                ", minutes=" + minutes +
+                ", sms=" + sms +
+                ", gb=" + gb +
+                '}';
+    }
 }
