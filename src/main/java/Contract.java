@@ -5,7 +5,7 @@ import java.time.LocalDate;
  * @see IContract
  * @autor Valentina Filonova
  */
-public abstract class Contract implements IContract{
+public abstract class Contract implements IContract {
     /**
      * Start date of the contract
      */
@@ -19,21 +19,27 @@ public abstract class Contract implements IContract{
      */
     private int id;
     /**
+     * Num of the contract
+     */
+    private int num;
+    /**
      * The owner of the contract
      */
     private Person owner;
 
     /**
      * Constructor - creating new contract.
+     * @param id of the contract
      * @param start of the contract
      * @param end of the contract
-     * @param id of the contract
+     * @param num of the contract
      * @param owner of the contract
      */
-    public Contract(LocalDate start, LocalDate end, int id, Person owner) {
+    public Contract(int id, LocalDate start, LocalDate end, int num, Person owner) {
+        this.id = id;
         this.start = start;
         this.end = end;
-        this.id = id;
+        this.num = num;
         this.owner = owner;
     }
 
@@ -52,16 +58,6 @@ public abstract class Contract implements IContract{
     public LocalDate getEnd() {
         return this.end;
     }
-
-//    public void setStart(LocalDate start) {
-//        this.start = start;
-//    }
-//    public void setEnd(LocalDate end) {
-//        this.end = end;
-//    }
-//    public void setId(int id) {
-//        this.id = id;
-//    }
 
     /**
      * Function for getting the field value {@link Contract#owner}.

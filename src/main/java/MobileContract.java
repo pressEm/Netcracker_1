@@ -24,16 +24,17 @@ public class MobileContract extends Contract {
 
     /**
      * Constructor - create new mobile communication contract
+     * @param id of the contract
      * @param start of the contract
      * @param end of the contract
-     * @param id of the contract
      * @param owner of the contract
-     * @param minutes
-     * @param sms
-     * @param gb
+     * @param num of the contract
+     * @param minutes of the contract
+     * @param sms of the contract
+     * @param gb of the contract
      */
-    public MobileContract(LocalDate start, LocalDate end, int id, Person owner, int minutes, int sms, int gb) {
-        super(start, end, id, owner);
+    public MobileContract(int id, LocalDate start, LocalDate end, int num, Person owner,  int minutes, int sms, int gb) {
+        super(id, start, end, num, owner);
         this.minutes = minutes;
         this.sms = sms;
         this.gb = gb;

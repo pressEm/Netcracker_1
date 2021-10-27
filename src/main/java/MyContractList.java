@@ -1,6 +1,4 @@
 import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
 
 /**
  * Resizable-array implementation of the {@code MyList} interface.
@@ -11,7 +9,7 @@ import java.util.function.Consumer;
  * @autor Valentina Filonova
  */
 
-public class MyArrayList<T> implements MyList {
+public class MyContractList<T extends IContract> implements MyList {
     /**
      * Array storing list items
      */
@@ -20,20 +18,23 @@ public class MyArrayList<T> implements MyList {
     /**
      * Constructs an empty list
      */
-    MyArrayList() {
-        values = (T[]) new Object[0];
+    public MyContractList() {
+        values = (T[]) new Contract[0];
     }
 
     /**
      * Appends the specified element to the end of this list.
      *
      * @param element to be appended to this list
-     * @return
+     * @return true if operation success
      */
     @Override
-    public boolean add(Object element) {
+    public boolean add(IContract element) {
+        if (element == null){
+            return false;
+        }
         T[] temp = values;
-        values = (T[]) new Object[temp.length + 1];
+        values = (T[]) new Contract[temp.length + 1];
         System.arraycopy(temp, 0, values, 0, values.length - 1);
         values[values.length - 1] = (T) element;
         return true;
@@ -44,15 +45,32 @@ public class MyArrayList<T> implements MyList {
      *
      * @param index of addition
      * @param element to be appended to this list
-     * @return
+     * @return true if operation success
      */
     @Override
-    public boolean add(Object element, int index) {
+    public boolean add(IContract element, int index) {
         T[] temp = values;
-        values = (T[]) new Object[temp.length + 1];
+        values = (T[]) new Contract[temp.length + 1];
         System.arraycopy(temp, 0, values, 0, index);
         values[index] = (T) element;
         System.arraycopy(temp, index, values,  index+1, temp.length-index);
+        return true;
+    }
+
+    /**
+     * Appends the elements to the end of this list.
+     *
+     * @param elements of addition
+     * @return true if operation success
+     */
+    @Override
+    public boolean add(IContract[] elements) {
+        if (elements == null) {
+            return false;
+        }
+        for (int i = 0; i < elements.length; i++) {
+            add(elements[i]);
+        }
         return true;
     }
 
@@ -63,12 +81,29 @@ public class MyArrayList<T> implements MyList {
      */
     @Override
     public void remove(int index) {
+        if (index > values.length){
+            return;
+        }
         T[] temp = values;
-        values = (T[]) new Object[temp.length - 1];
+        values = (T[]) new Contract[temp.length - 1];
         System.arraycopy(temp, 0, values, 0, index);
 
         System.arraycopy(temp, index+1, values,  index, temp.length-index-1);
+    }
 
+    /**
+     * Delete element by id.
+     *
+     * @param id of contract to deletion
+     */
+    @Override
+    public void removeByID(int id) {
+        System.out.println("Deletion contract with id " + id + "...");
+        for (int i = 0; i < values.length; i++) {
+            if (values[i].getID() == id) {
+               remove(i);
+            }
+        }
     }
 
     /**
@@ -78,7 +113,7 @@ public class MyArrayList<T> implements MyList {
      * @return the element at the specified position in this list
      */
     @Override
-    public Object get(int index) {
+    public IContract get(int index) {
         return values[index];
     }
 
@@ -97,6 +132,7 @@ public class MyArrayList<T> implements MyList {
      */
     @Override
     public Iterator<T> iterator() {
-        return new MyArrayIterator<>(values);
+        return new MyContractIterator<>(values);
     }
+
 }
