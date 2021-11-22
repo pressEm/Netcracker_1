@@ -1,7 +1,11 @@
+package contracts;
+
+import contracts.Contract;
+
 import java.time.LocalDate;
 
 /**
- * Class implemented extends Contract. It describes mobile
+ * Class implemented extends contracts.Contract. It describes mobile
  *
  * @autor Valentina Filonova
  */
@@ -34,7 +38,7 @@ public class InternetContract extends Contract {
 
     @Override
     public String toString() {
-        return "InternetContract {" +
+        return "contracts.InternetContract {" +
                 "id=" + super.getID() +
                 ", start=" + super.getStart() +
                 ", end=" + super.getEnd() +

@@ -1,3 +1,8 @@
+package contracts;
+
+import contracts.Channels;
+import contracts.Contract;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,14 +18,14 @@ public class TVContract extends Contract {
      * @param num    of the contract
      * @param owner of the contract
      */
-    public TVContract(int id, LocalDate start, LocalDate end, int num, Person owner,  List<Channels> channels) {
+    public TVContract(int id, LocalDate start, LocalDate end, int num, Person owner, List<Channels> channels) {
         super(id, start, end, num, owner);
         this.channels = channels;
     }
 
     @Override
     public String toString() {
-        return "TVContract {" +
+        return "contracts.TVContract {" +
                 "id=" + super.getID() +
                 ", start=" + super.getStart() +
                 ", end=" + super.getEnd() +

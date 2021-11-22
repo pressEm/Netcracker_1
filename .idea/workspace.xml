@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3dbae84-2b27-45f2-8937-e9fdfc8bbaf8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/BubleSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/ISorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InternetContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InternetContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Channels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/Channels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/IContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InternetContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/InternetContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MobileContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/MobileContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyContractIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylist/MyContractIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyContractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylist/MyContractList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylist/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TVContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/TVContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContractTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MyContractListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyContractListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InternetContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InternetContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Channels.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Contract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IContract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InternetContract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MobileContract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyContractIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyContractList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TVContract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ContractTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContractTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MyContractListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyContractListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PersonTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +42,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -72,7 +99,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyContractListTest.testAdd">
+  <component name="RunManager" selected="Application.TestCmp">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="net1" />
@@ -80,12 +107,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyContractListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestCmp" />
       <module name="net1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyContractListTest" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,19 +145,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyContractListTest.remove" />
-      <item itemvalue="JUnit.MyContractListTest.add" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MyContractListTest.remove" />
       <item itemvalue="JUnit.MyContractListTest.removeByID" />
       <item itemvalue="JUnit.MyContractListTest.testAdd" />
+      <item itemvalue="Application.TestCmp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCmp" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MyContractListTest.testAdd" />
         <item itemvalue="JUnit.MyContractListTest.removeByID" />
         <item itemvalue="JUnit.MyContractListTest.remove" />
-        <item itemvalue="JUnit.MyContractListTest.add" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -183,22 +207,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="75" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1634546128038" />
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634541872707">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1637583107151">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1634541872707" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1637583107151" />
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1635322412652">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1635322412652" />
-    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1635339961134">
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1637592155877">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1635339961134" />
-    <state x="532" y="285" width="403" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1635272345614">
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1637592155877" />
+    <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1637583105989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="532" y="285" width="403" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1635272345614" />
+    <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1637583105989" />
+    <state x="532" y="285" width="403" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1637609761707">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="532" y="285" width="403" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1637609761707" />
     <state x="447" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1635318995444">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -215,22 +243,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1635272569619" />
-    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1635357692397">
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1637610253758">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1635357692397" />
-    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1635357692397">
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1637610253758" />
+    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1637610253758">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1635357692397" />
-    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1635357692397">
+    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1637610253758" />
+    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1637610253758">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1635357692397" />
-    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1635357692397">
+    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1637610253758" />
+    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1637610253758">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1635357692397" />
+    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1637610253758" />
     <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1635322427550">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -255,18 +283,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="357" y="88" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1635338321761" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1637590740740">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1637590740740" />
     <state x="526" y="310" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1634540076838">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="526" y="310" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1634540076838" />
-    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635337942519">
+    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637610589425">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1635337942519" />
+    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1637610589425" />
     <state x="540" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1635272189247">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="540" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1635272189247" />
+    <state x="511" y="45" key="refactoring.ChangeSignatureDialog" timestamp="1637583883273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="511" y="45" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1637583883273" />
     <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1635235660504">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

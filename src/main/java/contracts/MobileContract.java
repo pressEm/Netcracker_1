@@ -1,7 +1,9 @@
+package contracts;
+
 import java.time.LocalDate;
 
 /**
- * Class implemented extends Contract.
+ * Class implemented extends contracts.Contract.
  * This class describes mobile communication contract with special fields such as minutes, sms, gb.
  * @see Contract
  * @autor Valentina Filonova
@@ -33,7 +35,7 @@ public class MobileContract extends Contract {
      * @param sms of the contract
      * @param gb of the contract
      */
-    public MobileContract(int id, LocalDate start, LocalDate end, int num, Person owner,  int minutes, int sms, int gb) {
+    public MobileContract(int id, LocalDate start, LocalDate end, int num, Person owner, int minutes, int sms, int gb) {
         super(id, start, end, num, owner);
         this.minutes = minutes;
         this.sms = sms;
@@ -66,7 +68,7 @@ public class MobileContract extends Contract {
 
     @Override
     public String toString() {
-        return "MobileContract {" +
+        return "contracts.MobileContract {" +
                 "id=" + super.getID() +
                 ", start=" + super.getStart() +
                 ", end=" + super.getEnd() +

@@ -1,3 +1,5 @@
+import contracts.MobileContract;
+import contracts.Person;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;

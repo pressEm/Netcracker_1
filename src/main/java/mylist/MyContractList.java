@@ -1,7 +1,13 @@
+package mylist;
+
+import contracts.Contract;
+import contracts.IContract;
+import mylist.MyList;
+
 import java.util.Iterator;
 
 /**
- * Resizable-array implementation of the {@code MyList} interface.
+ * Resizable-array implementation of the {@code mylist.MyList} interface.
  * This class provides methods to manipulate the size of the array that is
  * used internally to store the list.
  *

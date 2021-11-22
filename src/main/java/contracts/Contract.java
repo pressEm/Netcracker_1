@@ -1,7 +1,9 @@
+package contracts;
+
 import java.time.LocalDate;
 
 /**
- * Abstract class implemented interface IContract
+ * Abstract class implemented interface contracts.IContract
  * @see IContract
  * @autor Valentina Filonova
  */
@@ -61,7 +63,7 @@ public abstract class Contract implements IContract {
 
     /**
      * Function for getting the field value {@link Contract#owner}.
-     * @return Person who is the contract owner
+     * @return contracts.Person who is the contract owner
      */
     public Person getOwner() {
         return this.owner;
@@ -98,7 +100,7 @@ public abstract class Contract implements IContract {
      */
     @Override
     public String toString() {
-        return "Contract {" +
+        return "contracts.Contract {" +
                 "id=" + id +
                 ", start=" + start +
                 ", end=" + end +

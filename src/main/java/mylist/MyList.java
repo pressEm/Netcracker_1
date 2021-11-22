@@ -1,3 +1,7 @@
+package mylist;
+
+import contracts.IContract;
+
 /***
  * The user can access elements by their integer index, add, remove and search for elements in the list.
  * @param <T> the type of elements in this list

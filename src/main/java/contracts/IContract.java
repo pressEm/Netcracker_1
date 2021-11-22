@@ -1,3 +1,5 @@
+package contracts;
+
 /**
  * Interface is used to create all types of the contracts
  * @autor Valentina Filonova

@@ -1,3 +1,6 @@
+import contracts.*;
+import mylist.MyContractList;
+import mylist.MyList;
 import org.junit.jupiter.api.*;
 
 import java.time.LocalDate;

@@ -1,3 +1,5 @@
+package contracts;
+
 public enum Channels {
     ANIMAl_PLANET,
     CINEMA,
@@ -13,7 +15,7 @@ public enum Channels {
     FOX,
     RETRO;
 //    private int i;
-//    Channels(int i) {
+//    contracts.Channels(int i) {
 //        this.i = i;
 //    }
 }

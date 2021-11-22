@@ -1,8 +1,10 @@
+package contracts;
+
 import java.time.LocalDate;
 import java.time.Period;
 
 /**
- * Person representation class
+ * contracts.Person representation class
  * @autor Valentina Filonova
  */
 public class Person {
@@ -52,7 +54,7 @@ public class Person {
      */
     @Override
     public String toString() {
-        return "Person{" +
+        return "contracts.Person{" +
                 "name='" + name + '\'' +
                 ", birthDate=" + birthDate +
                 ", sex=" + sex +

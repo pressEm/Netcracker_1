@@ -1,3 +1,7 @@
+package mylist;
+
+import contracts.IContract;
+
 import java.util.Iterator;
 
 /**
