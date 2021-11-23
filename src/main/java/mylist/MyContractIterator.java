@@ -6,7 +6,6 @@ import java.util.Iterator;
 
 /**
  * An iterator for lists that allows the programmer to traverse the list
- *
  * @param <T> the type of elements in this ArrayList
  * @autor Valentina Filonova
  */

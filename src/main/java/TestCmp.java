@@ -1,17 +1,18 @@
 import comparators.ComparatorByDateEnd;
-import comparators.ComparatorByNum;
 import contracts.*;
 import mylist.MyContractList;
 import mylist.MyList;
 import predicates.FinishAfterDate;
-import sorting.BubleSorter;
+import predicates.FinishBeforeDate;
+import predicates.StartBeforeDate;
 import sorting.SelectionSorter;
 
+import java.io.FileReader;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.function.Predicate;
 
-public class Main {
+public class TestCmp {
     public static void main(String[] args) {
         Person p1 = new Person("Valentina", LocalDate.of(2001, 11, 18), 'w');
         Person p2 = new Person("Alex", LocalDate.of(2000, 2, 28), 'm');
@@ -28,39 +29,11 @@ public class Main {
                 LocalDate.of(2022, 1, 10),
                 21, p2, new ArrayList<Channels>());
         MyList<Contract> list = new MyContractList();
-        list.add(new Contract[]{c1, c2, c3, c4});
+        list.add(new Contract[]{c2, c3, c1, c4});
         for (Contract c : list) {
             System.out.println(c);
         }
         System.out.println("Number of contracts: " + list.size());
-
-        ComparatorByDateEnd cmp = new ComparatorByDateEnd();
-        ComparatorByNum cmpn = new ComparatorByNum();
-        SelectionSorter ss = new SelectionSorter();
-        BubleSorter bs = new BubleSorter();
-        MyList<Contract> listSorted = bs.sort(list, cmp);
-        printList(listSorted);
-
-        FinishAfterDate<IContract> isStartBefore = new FinishAfterDate<>();
-        MyList<Contract> listSearch = search(isStartBefore, list);
-        printList(listSearch);
-    }
-
-    public static MyList<Contract> search(Predicate<Contract> predicate, MyList<Contract> list) {
-        System.out.println("--- --- search --- ---");
-        MyList<Contract> listSearch = new MyContractList<Contract>();
-        for (Contract c:list) {
-            if (predicate.test(c)){
-                listSearch.add(c);
-            }
-        }
-        return listSearch;
-    }
-
-    public static void printList(MyList<Contract> list){
-        System.out.println("--- --- print --- ---");
-        for (Contract c:list) {
-            System.out.println(c);
-        }
     }
 }
+
