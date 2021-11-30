@@ -1,6 +1,9 @@
 package mylist;
 
+import contracts.Contract;
 import contracts.IContract;
+
+import java.util.function.Predicate;
 
 /***
  * The user can access elements by their integer index, add, remove and search for elements in the list.
@@ -15,4 +18,5 @@ public interface MyList<T extends IContract> extends Iterable<T>{
     void removeByID(int id);
     T get(int index);
     int size();
+    MyList<T> search(Predicate<T> predicate);
 }

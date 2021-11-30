@@ -42,13 +42,14 @@ public class Main {
         printList(listSorted);
 
         FinishAfterDate<IContract> isStartBefore = new FinishAfterDate<>();
-        MyList<Contract> listSearch = search(isStartBefore, list);
+        MyList<Contract> listSearch = list.search(isStartBefore);
+//        MyList<Contract> listSearch = search(isStartBefore, list);
         printList(listSearch);
     }
 
     public static MyList<Contract> search(Predicate<Contract> predicate, MyList<Contract> list) {
         System.out.println("--- --- search --- ---");
-        MyList<Contract> listSearch = new MyContractList<Contract>();
+        MyList<Contract> listSearch = new MyContractList<>();
         for (Contract c:list) {
             if (predicate.test(c)){
                 listSearch.add(c);
