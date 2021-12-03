@@ -10,7 +10,6 @@ import sorting.SelectionSorter;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.function.Predicate;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -30,21 +29,21 @@ public class Main {
                 21, p2, new ArrayList<Channels>());
         MyList<Contract> list = new MyContractList();
         list.add(new Contract[]{c1, c2, c3, c4});
-        for (Contract c : list) {
-            System.out.println(c);
-        }
-        System.out.println("Number of contracts: " + list.size());
+//        for (Contract c : list) {
+//            System.out.println(c);
+//        }
+//        System.out.println("Number of contracts: " + list.size());
 
-        ComparatorByDateEnd cmp = new ComparatorByDateEnd();
-        ComparatorByNum cmpn = new ComparatorByNum();
-        SelectionSorter ss = new SelectionSorter();
-        BubleSorter bs = new BubleSorter();
-        MyList<Contract> listSorted = bs.sort(list, cmpn);
-        printList(listSorted);
+//        ComparatorByDateEnd cmp = new ComparatorByDateEnd();
+//        ComparatorByNum cmpn = new ComparatorByNum();
+//        SelectionSorter ss = new SelectionSorter();
+//        BubleSorter bs = new BubleSorter();
+//        MyList<Contract> listSorted = bs.sort(list, cmpn);
+//        printList(listSorted);
 
-        FinishAfterDate<IContract> isStartBefore = new FinishAfterDate<>();
-        MyList<Contract> listSearch = list.search(isStartBefore);
-        printList(listSearch);
+//        FinishAfterDate<IContract> isStartBefore = new FinishAfterDate<>();
+//        MyList<Contract> listSearch = list.search(isStartBefore);
+//        printList(listSearch);
 
         LoadCSV data = new LoadCSV("AddAddr.csv", list);
         data.readCSVFile();

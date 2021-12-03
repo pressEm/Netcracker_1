@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3dbae84-2b27-45f2-8937-e9fdfc8bbaf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LoadCSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoadCSVTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/comparators/ComparatorByDateEndTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/comparators/ComparatorByNumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/predicates/FinishAfterDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/predicates/FinishBeforeDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/predicates/StartBeforeDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sorting/BubleSorterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sorting/SelectionSorterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoadCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoadCSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/InternetContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/InternetContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylist/MyContractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylist/MyContractList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylist/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylist/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/BubleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/BubleSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/net1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoadCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoadCSV.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/contracts/InternetContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/InternetContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylist/MyContractList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylist/MyContractList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylist/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylist/MyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/BubleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/BubleSorter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,30 +174,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="465" y="173" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.834@0.0.1536.834" timestamp="1635245270410" />
-    <state x="424" y="11" key="CommitChangelistDialog2" timestamp="1637664594193">
+    <state x="424" y="11" key="CommitChangelistDialog2" timestamp="1638513315484">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="424" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1637664594193" />
+    <state x="424" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1638513315484" />
     <state x="549" y="158" key="FileChooserDialogImpl" timestamp="1638294603795">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1638294603795" />
-    <state width="1493" height="218" key="GridCell.Tab.0.bottom" timestamp="1638511455083">
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom" timestamp="1638513255876">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1638511455083" />
-    <state width="1493" height="218" key="GridCell.Tab.0.center" timestamp="1638511455083">
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1638513255876" />
+    <state width="1493" height="218" key="GridCell.Tab.0.center" timestamp="1638513255876">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1638511455083" />
-    <state width="1493" height="218" key="GridCell.Tab.0.left" timestamp="1638511455083">
+    <state width="1493" height="218" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1638513255876" />
+    <state width="1493" height="218" key="GridCell.Tab.0.left" timestamp="1638513255876">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1638511455083" />
-    <state width="1493" height="218" key="GridCell.Tab.0.right" timestamp="1638511455083">
+    <state width="1493" height="218" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1638513255876" />
+    <state width="1493" height="218" key="GridCell.Tab.0.right" timestamp="1638513255876">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1638511455083" />
+    <state width="1493" height="218" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1638513255876" />
     <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1638182309408">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
