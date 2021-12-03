@@ -1,7 +1,7 @@
 package sorting;
 
-import comparators.ComparatorByNum;
 import contracts.Contract;
+import mylist.MyContractList;
 import mylist.MyList;
 
 import java.util.Comparator;
@@ -18,7 +18,11 @@ public class BubleSorter implements ISorter {
     @Override
     public MyList<Contract> sort(MyList list1, Comparator cmp) {
         System.out.println("--- --- sort --- ---");
-        MyList<Contract> list = list1;
+        MyList<Contract> list = new MyContractList<>();
+        for (Object c: list1
+             ) {
+            list.add((Contract)c);
+        }
         for (int i = 0; i < list.size(); i++) {
             for (int j = 1; j < list.size(); j++) {
                 if (cmp.compare(list.get(j - 1), list.get(j)) > 0) {

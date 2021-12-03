@@ -2,9 +2,9 @@ package mylist;
 
 import contracts.Contract;
 import contracts.IContract;
-import mylist.MyList;
 
 import java.util.Iterator;
+import java.util.function.Predicate;
 
 /**
  * Resizable-array implementation of the {@code mylist.MyList} interface.
@@ -131,6 +131,18 @@ public class MyContractList<T extends IContract> implements MyList {
         return values.length;
     }
 
+    @Override
+    public MyList search(Predicate predicate) {
+        System.out.println("--- --- search --- ---");
+        MyList<T> listSearch = new MyContractList<Contract>();
+        for (T c:this.values) {
+            if (c != null & predicate.test(c)){
+                listSearch.add(c);
+            }
+        }
+        return listSearch;
+    }
+
     /**
      * Returns an iterator over the elements in this list in proper sequence.
      *
@@ -140,5 +152,17 @@ public class MyContractList<T extends IContract> implements MyList {
     public Iterator<T> iterator() {
         return new MyContractIterator<>(values);
     }
+
+//    @Override
+//    public MyList<T> search(Predicate<T> predicate) {
+//        System.out.println("--- --- search --- ---");
+//        MyList<T> listSearch = new MyContractList<Contract>();
+//        for (T c:this.values) {
+//            if (c != null & (predicate.test((Contract) c))){
+//                listSearch.add(c);
+//            }
+//        }
+//        return listSearch;
+//    }
 
 }

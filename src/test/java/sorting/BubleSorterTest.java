@@ -1,19 +1,21 @@
+package sorting;
+
 import comparators.ComparatorByDateEnd;
 import comparators.ComparatorByNum;
 import contracts.*;
 import mylist.MyContractList;
 import mylist.MyList;
-import predicates.FinishAfterDate;
-import sorting.BubleSorter;
-import sorting.SelectionSorter;
+import org.junit.jupiter.api.Test;
 
-import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.function.Predicate;
 
-public class Main {
-    public static void main(String[] args) throws IOException {
+import static org.junit.jupiter.api.Assertions.*;
+
+class BubleSorterTest {
+
+    @Test
+    void sort() {
         Person p1 = new Person("Valentina", LocalDate.of(2001, 11, 18), 'w');
         Person p2 = new Person("Alex", LocalDate.of(2000, 2, 28), 'm');
 
@@ -30,32 +32,15 @@ public class Main {
                 21, p2, new ArrayList<Channels>());
         MyList<Contract> list = new MyContractList();
         list.add(new Contract[]{c1, c2, c3, c4});
-        for (Contract c : list) {
-            System.out.println(c);
-        }
-        System.out.println("Number of contracts: " + list.size());
+        MyList<Contract> listCheck = new MyContractList();
+        listCheck.add(new Contract[]{c4,c2,c1,c3});
 
         ComparatorByDateEnd cmp = new ComparatorByDateEnd();
-        ComparatorByNum cmpn = new ComparatorByNum();
-        SelectionSorter ss = new SelectionSorter();
         BubleSorter bs = new BubleSorter();
-        MyList<Contract> listSorted = bs.sort(list, cmpn);
-        printList(listSorted);
-
-        FinishAfterDate<IContract> isStartBefore = new FinishAfterDate<>();
-        MyList<Contract> listSearch = list.search(isStartBefore);
-        printList(listSearch);
-
-        LoadCSV data = new LoadCSV("AddAddr.csv", list);
-        data.readCSVFile();
-        printList(list);
-    }
-
-
-    public static void printList(MyList<Contract> list){
-        System.out.println("--- --- print --- ---");
-        for (Contract c:list) {
-            System.out.println(c);
-        }
+        MyList<Contract> listSorted = bs.sort(list, cmp);
+        assertEquals(listSorted.get(0), listCheck.get(0));
+        assertEquals(listSorted.get(1), listCheck.get(1));
+        assertEquals(listSorted.get(2), listCheck.get(2));
+        assertEquals(listSorted.get(3), listCheck.get(3));
     }
 }
