@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="net1" />
         <module name="net1_2_2" />
+        <module name="net1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />

@@ -1,11 +1,9 @@
-import comparators.ComparatorByDateEnd;
-import comparators.ComparatorByNum;
 import contracts.*;
 import mylist.MyContractList;
 import mylist.MyList;
-import predicates.FinishAfterDate;
-import sorting.BubleSorter;
-import sorting.SelectionSorter;
+import validation.CheckContract;
+import validation.InternetContractValidator;
+import validation.ValidatorMessage;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -47,7 +45,18 @@ public class Main {
 
         LoadCSV data = new LoadCSV("AddAddr.csv", list);
         data.readCSVFile();
+
+        InternetContract c7 = new InternetContract(7, LocalDate.of(2020, 9, 10),
+                LocalDate.of(2012, 10, 10),
+                -11, p1, -300);
         printList(list);
+
+
+        InternetContractValidator validateContract = new InternetContractValidator();
+        ValidatorMessage message = validateContract.validate(c7);
+        System.out.println(message.toString());
+        CheckContract contract = new CheckContract();
+        System.out.println(contract.checkTVChannels(c3));
     }
 
 

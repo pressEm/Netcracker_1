@@ -9,6 +9,10 @@ import java.util.List;
 
 public class TVContract extends Contract {
 
+    public List<Channels> getChannels() {
+        return channels;
+    }
+
     private List<Channels> channels = new ArrayList();
     /**
      * Constructor - creating new contract.
