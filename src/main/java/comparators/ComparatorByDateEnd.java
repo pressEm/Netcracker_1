@@ -7,6 +7,7 @@ import java.util.Comparator;
 /**
  *A comparison function, which imposes a total ordering on a collection of contracts.
  * @param <T> type of collection
+ * @author Valentina Filonova
  */
 public class ComparatorByDateEnd<T extends Contract> implements Comparator<T> {
     /**

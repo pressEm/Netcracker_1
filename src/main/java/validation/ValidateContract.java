@@ -2,9 +2,18 @@ package validation;
 
 import contracts.Contract;
 
+/**
+ * The class checks the fields of the contract class passed as a parameter
+ *  @author Valentina Filonova
+ */
 public class ValidateContract {
     CheckContract checkContract = new CheckContract();
 
+    /**
+     * Validates an Internet contract
+     * @param contract
+     * @return message that contains validation status and errors
+     */
     public ValidatorMessage check(Contract contract) {
         ValidatorMessage message = new ValidatorMessage();
         message.setStatus(Status.OK);

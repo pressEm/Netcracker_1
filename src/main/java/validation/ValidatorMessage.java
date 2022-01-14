@@ -3,6 +3,10 @@ package validation;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Class describes the result of validating a single contract: status(OK, ERROR), Errors
+ * @author Valentina Filonova
+ */
 public class ValidatorMessage {
     private Status status;
     private Map<String, String> errors = new HashMap<>();

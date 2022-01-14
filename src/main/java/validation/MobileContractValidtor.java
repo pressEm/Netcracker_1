@@ -1,10 +1,18 @@
 package validation;
 
 import contracts.Contract;
-import contracts.InternetContract;
 import contracts.MobileContract;
 
+/**
+ * Class validate Mobile contract
+ * @author Valentina Filonova
+ */
 public class MobileContractValidtor extends ValidateContract{
+    /**
+     * Validates an Mobile contract
+     * @param c
+     * @return message that contains validation status and errors
+     */
     public ValidatorMessage validate(Contract c) {
         MobileContract contract = (MobileContract) c;
         CheckContract checkContract = new CheckContract();
