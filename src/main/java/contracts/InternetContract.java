@@ -30,6 +30,7 @@ public class InternetContract extends Contract {
     public InternetContract(int id, LocalDate start, LocalDate end, int num, Person owner, int speed) {
         super(id, start, end, num, owner);
         this.connectionSpeed = speed;
+        System.out.println(id+" " + start + " " + " " + end+ " " + num);
     }
 
     public int getConnectionSpeed() {

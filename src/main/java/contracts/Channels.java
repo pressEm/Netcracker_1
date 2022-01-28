@@ -14,8 +14,4 @@ public enum Channels {
     PARAMOUNT_CHANNEL,
     FOX,
     RETRO;
-//    private int i;
-//    contracts.Channels(int i) {
-//        this.i = i;
-//    }
 }

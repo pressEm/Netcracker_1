@@ -136,7 +136,7 @@ public class MyContractList<T extends IContract> implements MyList {
         System.out.println("--- --- search --- ---");
         MyList<T> listSearch = new MyContractList<Contract>();
         for (T c:this.values) {
-            if (c != null & (predicate.test(c))){
+            if (c != null & predicate.test(c)){
                 listSearch.add(c);
             }
         }
