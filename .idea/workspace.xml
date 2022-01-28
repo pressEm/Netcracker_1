@@ -4,73 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3dbae84-2b27-45f2-8937-e9fdfc8bbaf8" name="Default Changelist" comment="second">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/net1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comparators/ComparatorByDateEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comparators/ComparatorByDateEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comparators/ComparatorByNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comparators/ComparatorByNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/Channels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/Channels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/IContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/IContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/InternetContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/InternetContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/MobileContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/MobileContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/TVContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/TVContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylist/MyContractIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylist/MyContractIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylist/MyContractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylist/MyContractList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylist/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylist/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/predicates/FinishAfterDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/predicates/FinishAfterDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/predicates/FinishBeforeDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/predicates/FinishBeforeDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/predicates/StartBeforeDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/predicates/StartBeforeDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/BubleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/BubleSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/ISorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/ISorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/SelectionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/SelectionSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyContractListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyContractListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/comparators/ComparatorByDateEndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/comparators/ComparatorByDateEndTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/comparators/ComparatorByNumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/comparators/ComparatorByNumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/predicates/FinishAfterDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/predicates/FinishAfterDateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/predicates/FinishBeforeDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/predicates/FinishBeforeDateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/predicates/StartBeforeDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/predicates/StartBeforeDateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sorting/BubleSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/BubleSorterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sorting/SelectionSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/SelectionSorterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestCmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestCmp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/comparators/ComparatorByDateEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comparators/ComparatorByDateEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/comparators/ComparatorByNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comparators/ComparatorByNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/contracts/Channels.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/Channels.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/contracts/Contract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/Contract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/contracts/IContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/IContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/contracts/InternetContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/InternetContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/contracts/MobileContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/MobileContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/contracts/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/contracts/TVContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/TVContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylist/MyContractIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylist/MyContractIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylist/MyContractList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylist/MyContractList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mylist/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylist/MyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/predicates/FinishAfterDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/predicates/FinishAfterDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/predicates/FinishBeforeDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/predicates/FinishBeforeDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/predicates/StartBeforeDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/predicates/StartBeforeDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/BubleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/BubleSorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/ISorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/ISorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/SelectionSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/SelectionSorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ContractTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContractTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyContractListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyContractListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PersonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/predicates/FinishAfterDateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/predicates/FinishAfterDateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/predicates/FinishBeforeDateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/predicates/FinishBeforeDateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/predicates/StartBeforeDateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/predicates/StartBeforeDateTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="f3dbae84-2b27-45f2-8937-e9fdfc8bbaf8" name="Default Changelist" comment="addvalidation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637664595199</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="addvalidation">
+      <created>1643398981883</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643398981883</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,10 +249,31 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/validation" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second" />
     <MESSAGE value="sort_search" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort_search" />
+    <MESSAGE value="addvalidation" />
+    <option name="LAST_COMMIT_MESSAGE" value="addvalidation" />
   </component>
 </project>
