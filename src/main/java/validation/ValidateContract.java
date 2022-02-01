@@ -6,7 +6,7 @@ import contracts.Contract;
  * The class checks the fields of the contract class passed as a parameter
  *  @author Valentina Filonova
  */
-public class ValidateContract {
+public class ValidateContract{
     CheckContract checkContract = new CheckContract();
 
     /**

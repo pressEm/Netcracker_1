@@ -7,7 +7,7 @@ import contracts.TVContract;
  * Class validate TV contract
  * @author Valentina Filonova
  */
-public class TVContractValidator extends ValidateContract{
+public class TVContractValidator extends ValidateContract implements IValidator{
     /**
      * Validates an TV contract
      * @param c

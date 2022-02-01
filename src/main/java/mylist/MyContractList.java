@@ -1,9 +1,14 @@
 package mylist;
 
+import annotation.AutoInjectable;
 import contracts.Contract;
 import contracts.IContract;
+import sorting.ISorter;
 
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Iterator;
+import java.util.List;
 import java.util.function.Predicate;
 
 /**
@@ -21,6 +26,13 @@ public class MyContractList<T extends IContract> implements MyList {
      */
     private T[] values;
 
+    public List<ISorter> getSorterList() {
+        return sorterList;
+    }
+
+    @AutoInjectable
+    private List<ISorter> sorterList = new ArrayList<>();
+
     /**
      * Constructs an empty list
      */
@@ -36,7 +48,7 @@ public class MyContractList<T extends IContract> implements MyList {
      */
     @Override
     public boolean add(IContract element) {
-        if (element == null){
+        if (element == null) {
             return false;
         }
         T[] temp = values;
@@ -49,7 +61,7 @@ public class MyContractList<T extends IContract> implements MyList {
     /**
      * Appends the specified element to the at the specified position in this list.
      *
-     * @param index of addition
+     * @param index   of addition
      * @param element to be appended to this list
      * @return true if operation success
      */
@@ -59,7 +71,7 @@ public class MyContractList<T extends IContract> implements MyList {
         values = (T[]) new Contract[temp.length + 1];
         System.arraycopy(temp, 0, values, 0, index);
         values[index] = (T) element;
-        System.arraycopy(temp, index, values,  index+1, temp.length-index);
+        System.arraycopy(temp, index, values, index + 1, temp.length - index);
         return true;
     }
 
@@ -87,14 +99,14 @@ public class MyContractList<T extends IContract> implements MyList {
      */
     @Override
     public void remove(int index) {
-        if (index > values.length){
+        if (index > values.length) {
             return;
         }
         T[] temp = values;
         values = (T[]) new Contract[temp.length - 1];
         System.arraycopy(temp, 0, values, 0, index);
 
-        System.arraycopy(temp, index+1, values,  index, temp.length-index-1);
+        System.arraycopy(temp, index + 1, values, index, temp.length - index - 1);
     }
 
     /**
@@ -107,7 +119,7 @@ public class MyContractList<T extends IContract> implements MyList {
         System.out.println("Deletion contract with id " + id + "...");
         for (int i = 0; i < values.length; i++) {
             if (values[i].getID() == id) {
-               remove(i);
+                remove(i);
             }
         }
     }
@@ -135,8 +147,8 @@ public class MyContractList<T extends IContract> implements MyList {
     public MyList search(Predicate predicate) {
         System.out.println("--- --- search --- ---");
         MyList<T> listSearch = new MyContractList<Contract>();
-        for (T c:this.values) {
-            if (c != null & predicate.test(c)){
+        for (T c : this.values) {
+            if (c != null & predicate.test(c)) {
                 listSearch.add(c);
             }
         }
@@ -153,16 +165,33 @@ public class MyContractList<T extends IContract> implements MyList {
         return new MyContractIterator<>(values);
     }
 
-//    @Override
-//    public MyList<T> search(Predicate<T> predicate) {
-//        System.out.println("--- --- search --- ---");
-//        MyList<T> listSearch = new MyContractList<Contract>();
-//        for (T c:this.values) {
-//            if (c != null & (predicate.test((Contract) c))){
-//                listSearch.add(c);
+    /**
+     *
+     * @param sorterName - name of class of sorting
+     * @return sorted list of the contracts
+     */
+
+    public ISorter getSorter(String sorterName){
+        ISorter result = null;
+        for (ISorter sorter : sorterList) {
+            System.out.println(sorter.getClass().getName());
+            if (sorter.getClass().getName().equals(sorterName)) {
+                result = sorter;
+                break;
+            }
+        }
+        return result;
+    }
+    public MyContractList sortByName(String sorterName, Comparator cmp) {
+        ISorter result = getSorter(sorterName);
+//        for (ISorter sorter : sorterList) {
+//            System.out.println(sorter.getClass().getName());
+//            if (sorter.getClass().getName().equals(sorterName)) {
+//                result = sorter;
+//                break;
 //            }
 //        }
-//        return listSearch;
-//    }
-
+        result.sort((Contract[]) values, cmp);
+        return this;
+    }
 }

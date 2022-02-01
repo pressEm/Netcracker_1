@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3dbae84-2b27-45f2-8937-e9fdfc8bbaf8" name="Default Changelist" comment="addvalidation" />
+    <list default="true" id="f3dbae84-2b27-45f2-8937-e9fdfc8bbaf8" name="Default Changelist" comment="addvalidation1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddAddr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AddAddr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitHub.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GitHub.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoadCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoadCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylist/MyContractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylist/MyContractList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/BubleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/BubleSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/ISorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/ISorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/SelectionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/SelectionSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/InternetContractValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/InternetContractValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/MobileContractValidtor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/MobileContractValidtor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/TVContractValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/TVContractValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/ValidateContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/ValidateContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoadCSVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoadCSVTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyContractListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyContractListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoadCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoadCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/net1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylist/MyContractList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylist/MyContractList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/BubleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/BubleSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/ISorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/ISorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/SelectionSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/SelectionSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/InternetContractValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validation/InternetContractValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/MobileContractValidtor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validation/MobileContractValidtor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validation/TVContractValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validation/TVContractValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoadCSVTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoadCSVTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Netcracker_1-main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyContractListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyContractListTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +44,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -60,24 +89,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Netcracker_1-validation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Samat/NC_labs-injector" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-      <recent name="predicates" />
-      <recent name="comparators" />
-      <recent name="sorting" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="annotation" />
       <recent name="" />
+      <recent name="predicates" />
+      <recent name="comparators" />
+      <recent name="sorting" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -86,25 +116,10 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="JUnit.InjectorTest.injector">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Netcracker_1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="net1_2_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="validate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="validate" />
-      <option name="MAIN_CLASS_NAME" value="validate.CheckContractTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,6 +140,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InjectorTest.injector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Netcracker_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="annotation" />
+      <option name="MAIN_CLASS_NAME" value="annotation.InjectorTest" />
+      <option name="METHOD_NAME" value="injector" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InjectorTest.injector1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Netcracker_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="annotation" />
+      <option name="MAIN_CLASS_NAME" value="annotation.InjectorTest" />
+      <option name="METHOD_NAME" value="injector1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InjectorTest.sorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Netcracker_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="annotation" />
+      <option name="MAIN_CLASS_NAME" value="annotation.InjectorTest" />
+      <option name="METHOD_NAME" value="sorting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoadCSVTest.readCSVFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Netcracker_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -135,52 +198,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MobileContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="net1_2_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="validate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="validate" />
-      <option name="MAIN_CLASS_NAME" value="validate.MobileContractTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MobileContractTest.compare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="net1_2_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="validate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="validate" />
-      <option name="MAIN_CLASS_NAME" value="validate.MobileContractTest" />
-      <option name="METHOD_NAME" value="compare" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="JUnit.CheckContractTest" />
       <item itemvalue="JUnit.CheckContractTest.check" />
       <item itemvalue="JUnit.LoadCSVTest.readCSVFile" />
-      <item itemvalue="JUnit.MobileContractTest" />
-      <item itemvalue="JUnit.MobileContractTest.compare" />
+      <item itemvalue="JUnit.InjectorTest.sorting" />
+      <item itemvalue="JUnit.InjectorTest.injector1" />
+      <item itemvalue="JUnit.InjectorTest.injector" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InjectorTest.injector" />
         <item itemvalue="JUnit.LoadCSVTest.readCSVFile" />
+        <item itemvalue="JUnit.InjectorTest.injector1" />
+        <item itemvalue="JUnit.InjectorTest.sorting" />
         <item itemvalue="JUnit.CheckContractTest.check" />
-        <item itemvalue="JUnit.CheckContractTest" />
-        <item itemvalue="JUnit.MobileContractTest" />
-        <item itemvalue="JUnit.MobileContractTest.compare" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643398981883</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="addvalidation1">
+      <created>1643399777499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643399777499</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +293,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/csv" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/main" />
@@ -274,6 +318,18 @@
     <MESSAGE value="second" />
     <MESSAGE value="sort_search" />
     <MESSAGE value="addvalidation" />
-    <option name="LAST_COMMIT_MESSAGE" value="addvalidation" />
+    <MESSAGE value="addvalidation1" />
+    <option name="LAST_COMMIT_MESSAGE" value="addvalidation1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk-15.0.1/lib/src.zip!/java.base/java/lang/reflect/Field.java</url>
+          <line>412</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

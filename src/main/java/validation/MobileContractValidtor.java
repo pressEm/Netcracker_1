@@ -7,7 +7,7 @@ import contracts.MobileContract;
  * Class validate Mobile contract
  * @author Valentina Filonova
  */
-public class MobileContractValidtor extends ValidateContract{
+public class MobileContractValidtor extends ValidateContract implements IValidator{
     /**
      * Validates an Mobile contract
      * @param c

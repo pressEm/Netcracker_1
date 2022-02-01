@@ -7,7 +7,7 @@ import contracts.InternetContract;
  * Class validate Internet contract
  * @author Valentina Filonova
  */
-public class InternetContractValidator extends ValidateContract{
+public class InternetContractValidator extends ValidateContract implements IValidator {
 
     /**
      * Validates an Internet contract

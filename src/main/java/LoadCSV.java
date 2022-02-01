@@ -1,8 +1,11 @@
+import annotation.AutoInjectable;
+import annotation.Injector;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import contracts.*;
 import mylist.MyContractList;
 import mylist.MyList;
+import sorting.ISorter;
 import validation.*;
 
 import java.io.FileNotFoundException;
@@ -13,24 +16,28 @@ import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 
 public class LoadCSV {
     private String ADDRESS_FILE;
     private List<String[]> allElements = new ArrayList<>();
     private MyList<Contract> repo = new MyContractList<>();
 
+    @AutoInjectable()
+    private List<IValidator> validators = new ArrayList<>();
+
     public LoadCSV(String ADDRESS_FILE, MyList<Contract> repo) {
         this.ADDRESS_FILE = ADDRESS_FILE;
         this.repo = repo;
+
     }
 
     public List<ValidatorMessage> readCSVFile() throws IOException {
+        System.out.println("---------readCSVFile----------");
+        for (IValidator v: validators
+             ) {
+            System.out.println(v.getClass().getName());
+        }
         try {
-//            CSVReader reader = new CSVReader(new FileReader(ADDRESS_FILE));
-//            String[] nextLine;
             CSVReader reader2 = new CSVReader(new FileReader(ADDRESS_FILE));
             allElements = reader2.readAll();
         } catch (FileNotFoundException e) {
@@ -62,17 +69,16 @@ public class LoadCSV {
             String[] date_end = param[1].split("\\.");
             try {
                 Person p = new Person(str[0], LocalDate.of(Integer.parseInt(date_birth[2]), Integer.parseInt(date_birth[1]), Integer.parseInt(date_birth[0])), str[2].charAt(0));
-//                System.out.println(p);
                 Contract c;
                 switch (str[3]) {
                     case "Internet":
                         c = new InternetContract(repo.size(), LocalDate.of(Integer.parseInt(date_start[2]),
                                 Integer.parseInt(date_start[1]), Integer.parseInt(date_start[0])), LocalDate.of(Integer.parseInt(date_end[2]),
                                 Integer.parseInt(date_end[1]), Integer.parseInt(date_end[0])), Integer.parseInt(param[2]), p, Integer.parseInt(param[3]));
-                        InternetContractValidator validator = new InternetContractValidator();
-                        if (validator.validate(c).getStatus().equals(Status.OK)){
+                        InternetContractValidator validator = (InternetContractValidator) getValidatorByName("validation.InternetContractValidator");
+                        if (validator.validate(c).getStatus().equals(Status.OK)) {
                             repo.add(c);
-                        } else{
+                        } else {
                             message = validator.validate(c);
                         }
                         break;
@@ -85,10 +91,10 @@ public class LoadCSV {
                         c = new TVContract(repo.size(), LocalDate.of(Integer.parseInt(date_start[2]),
                                 Integer.parseInt(date_start[1]), Integer.parseInt(date_start[0])), LocalDate.of(Integer.parseInt(date_end[2]),
                                 Integer.parseInt(date_end[1]), Integer.parseInt(date_end[0])), Integer.parseInt(param[2]), p, listChannels);
-                        TVContractValidator validator2 = new TVContractValidator();
-                        if (validator2.validate(c).getStatus().equals(Status.OK)){
+                        TVContractValidator validator2 = (TVContractValidator) getValidatorByName("validation.TVContractValidator");
+                        if (validator2.validate(c).getStatus().equals(Status.OK)) {
                             repo.add(c);
-                        } else{
+                        } else {
                             message = validator2.validate(c);
                         }
                         break;
@@ -97,10 +103,10 @@ public class LoadCSV {
                                 Integer.parseInt(date_start[1]), Integer.parseInt(date_start[0])), LocalDate.of(Integer.parseInt(date_end[2]),
                                 Integer.parseInt(date_end[1]), Integer.parseInt(date_end[0])), Integer.parseInt(param[2]),
                                 p, Integer.parseInt(param[3]), Integer.parseInt(param[4]), Integer.parseInt(param[5]));
-                        MobileContractValidtor validator3 = new MobileContractValidtor();
-                        if (validator3.validate(c).getStatus().equals(Status.OK)){
+                        MobileContractValidtor validator3 = (MobileContractValidtor) getValidatorByName("validation.MobileContractValidtor");
+                        if (validator3.validate(c).getStatus().equals(Status.OK)) {
                             repo.add(c);
-                        } else{
+                        } else {
                             message = validator3.validate(c);
                         }
                         break;
@@ -108,7 +114,18 @@ public class LoadCSV {
             } catch (DateTimeException | NumberFormatException ex) {
                 System.out.println("INVALID DATA FORMAT: " + ex.getMessage());
             }
-        }else System.out.println("INCORRECT NUMBERS OF CONTRACT PARAMETERS IN THE CSV FILE");
+        } else System.out.println("INCORRECT NUMBERS OF CONTRACT PARAMETERS IN THE CSV FILE");
         return message;
+    }
+
+    private IValidator getValidatorByName(String name) {
+        IValidator validateContract = null;
+        for (IValidator v : validators) {
+            if (v.getClass().getName().equals(name)) {
+                validateContract = v;
+                break;
+            }
+        }
+        return validateContract;
     }
 }
