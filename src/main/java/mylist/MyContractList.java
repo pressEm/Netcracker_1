@@ -3,6 +3,8 @@ package mylist;
 import annotation.AutoInjectable;
 import contracts.Contract;
 import contracts.IContract;
+import jakarta.xml.bind.annotation.*;
+import jakarta.xml.bind.annotation.adapters.XmlAdapter;
 import sorting.ISorter;
 
 import java.util.ArrayList;
@@ -19,17 +21,21 @@ import java.util.function.Predicate;
  * @param <T> the type of elements in this ArrayList
  * @autor Valentina Filonova
  */
-
+@XmlRootElement(name = "listContract")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class MyContractList<T extends IContract> implements MyList {
     /**
      * Array storing list items
      */
+    @XmlElement(name = "contracts")
     private T[] values;
 
+    @XmlTransient
     public List<ISorter> getSorterList() {
         return sorterList;
     }
 
+    @XmlTransient
     @AutoInjectable
     private List<ISorter> sorterList = new ArrayList<>();
 
@@ -193,5 +199,12 @@ public class MyContractList<T extends IContract> implements MyList {
 //        }
         result.sort((Contract[]) values, cmp);
         return this;
+    }
+
+    static class Adapter extends XmlAdapter<MyContractList,MyList> {
+        public MyList unmarshal(MyContractList v) {
+            return v;
+        }
+        public MyContractList marshal(MyList v) { return (MyContractList) v; }
     }
 }

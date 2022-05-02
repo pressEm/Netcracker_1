@@ -4,20 +4,81 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3dbae84-2b27-45f2-8937-e9fdfc8bbaf8" name="Default Changelist" comment="addvalidation1">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f3dbae84-2b27-45f2-8937-e9fdfc8bbaf8" name="Default Changelist" comment="addJDBC">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaxb/DateAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaxb/LocalDateAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaxb/ObjTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jaxb/marshalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/contracts/Contract$Adapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jaxb/DateAdapter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jaxb/DateAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jaxb/LocalDateAdapter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jaxb/LocalDateAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jaxb/ObjTransform.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc/DBConn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mylist/MyContractList$Adapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/jdbc/DBConnTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TVContract.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/contractList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/internetContract.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mobileContract.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/person.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/027083f2-650a-44b6-9c78-cde93be10355.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/027083f2-650a-44b6-9c78-cde93be10355/entities/entities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/027083f2-650a-44b6-9c78-cde93be10355/entities/entities.dat.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/027083f2-650a-44b6-9c78-cde93be10355/entities/entities.dat.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/027083f2-650a-44b6-9c78-cde93be10355/entities/entities.dat.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/027083f2-650a-44b6-9c78-cde93be10355/entities/entities.dat.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/027083f2-650a-44b6-9c78-cde93be10355/entities/entities.dat_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/027083f2-650a-44b6-9c78-cde93be10355/entities/entities.dat_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f2b9e7d-c3c5-4c0d-aa99-5e2697bee502.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f2b9e7d-c3c5-4c0d-aa99-5e2697bee502/entities/entities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f2b9e7d-c3c5-4c0d-aa99-5e2697bee502/entities/entities.dat.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f2b9e7d-c3c5-4c0d-aa99-5e2697bee502/entities/entities.dat.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f2b9e7d-c3c5-4c0d-aa99-5e2697bee502/entities/entities.dat.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f2b9e7d-c3c5-4c0d-aa99-5e2697bee502/entities/entities.dat.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f2b9e7d-c3c5-4c0d-aa99-5e2697bee502/entities/entities.dat_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f2b9e7d-c3c5-4c0d-aa99-5e2697bee502/entities/entities.dat_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/325fa8a7-6dca-4514-aacf-f46d1c506e92.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/325fa8a7-6dca-4514-aacf-f46d1c506e92/entities/entities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/325fa8a7-6dca-4514-aacf-f46d1c506e92/entities/entities.dat.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/325fa8a7-6dca-4514-aacf-f46d1c506e92/entities/entities.dat.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/325fa8a7-6dca-4514-aacf-f46d1c506e92/entities/entities.dat.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/325fa8a7-6dca-4514-aacf-f46d1c506e92/entities/entities.dat.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/325fa8a7-6dca-4514-aacf-f46d1c506e92/entities/entities.dat_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/325fa8a7-6dca-4514-aacf-f46d1c506e92/entities/entities.dat_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67f8424c-1b83-4810-ba1b-953fe1d9670d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67f8424c-1b83-4810-ba1b-953fe1d9670d/entities/entities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67f8424c-1b83-4810-ba1b-953fe1d9670d/entities/entities.dat.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67f8424c-1b83-4810-ba1b-953fe1d9670d/entities/entities.dat.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67f8424c-1b83-4810-ba1b-953fe1d9670d/entities/entities.dat.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67f8424c-1b83-4810-ba1b-953fe1d9670d/entities/entities.dat.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67f8424c-1b83-4810-ba1b-953fe1d9670d/entities/entities.dat_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67f8424c-1b83-4810-ba1b-953fe1d9670d/entities/entities.dat_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e754941-6b48-4af2-93d3-04fc0dadbf4c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7e754941-6b48-4af2-93d3-04fc0dadbf4c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GitHub.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GitHub.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts.db" beforeDir="false" afterPath="$PROJECT_DIR$/contracts.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts.db-journal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoadCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoadCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoadCSVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoadCSVTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/annotation/InjectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/annotation/InjectorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/IContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/IContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/InternetContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/InternetContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/MobileContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/MobileContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contracts/TVContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contracts/TVContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylist/MyContractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylist/MyContractList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylist/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylist/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoadCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoadCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contracts/Contract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/Contract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contracts/IContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/IContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contracts/InternetContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/InternetContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contracts/MobileContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/MobileContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contracts/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contracts/TVContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contracts/TVContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylist/MyContractList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylist/MyContractList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mylist/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mylist/MyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoadCSVTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoadCSVTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +102,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="jdbc" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,11 +153,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="jaxb" />
       <recent name="jdbc" />
       <recent name="annotation" />
       <recent name="" />
       <recent name="predicates" />
-      <recent name="comparators" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -105,7 +166,20 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DBConnTest.addTVTest">
+  <component name="RunManager" selected="Application.unMarshalTest">
+    <configuration name="ObjTransform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jaxb.ObjTransform" />
+      <module name="Netcracker_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jaxb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Netcracker_1" />
@@ -113,34 +187,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBConnTest.addInternetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="marshalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jaxb.marshalTest" />
       <module name="Netcracker_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="jaxb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.DBConnTest" />
-      <option name="METHOD_NAME" value="addInternetTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBConnTest.addPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="unMarshalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jaxb.unMarshalTest" />
       <module name="Netcracker_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="jaxb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.DBConnTest" />
-      <option name="METHOD_NAME" value="addPerson" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,40 +229,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadCSVTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="marshalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Netcracker_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoadCSVTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jaxb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jaxb" />
+      <option name="MAIN_CLASS_NAME" value="jaxb.marshalTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoadCSVTest.readCSVFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Netcracker_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoadCSVTest" />
-      <option name="METHOD_NAME" value="readCSVFile" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="JUnit.DBConnTest.addInternetTest" />
-      <item itemvalue="JUnit.DBConnTest.addPerson" />
-      <item itemvalue="JUnit.LoadCSVTest.readCSVFile" />
-      <item itemvalue="JUnit.LoadCSVTest" />
+      <item itemvalue="Application.ObjTransform" />
+      <item itemvalue="Application.marshalTest" />
       <item itemvalue="JUnit.DBConnTest.addTVTest" />
+      <item itemvalue="JUnit.marshalTest" />
+      <item itemvalue="Application.unMarshalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.unMarshalTest" />
+        <item itemvalue="Application.marshalTest" />
+        <item itemvalue="JUnit.marshalTest" />
+        <item itemvalue="Application.ObjTransform" />
         <item itemvalue="JUnit.DBConnTest.addTVTest" />
-        <item itemvalue="JUnit.LoadCSVTest" />
-        <item itemvalue="JUnit.DBConnTest.addInternetTest" />
-        <item itemvalue="JUnit.LoadCSVTest.readCSVFile" />
-        <item itemvalue="JUnit.DBConnTest.addPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +286,12 @@
       <option name="presentableId" value="Default" />
       <updated>1634539455175</updated>
       <workItem from="1646930272594" duration="793000" />
-      <workItem from="1649425390370" duration="22094000" />
+      <workItem from="1649425390370" duration="26054000" />
+      <workItem from="1651039305398" duration="13845000" />
+      <workItem from="1651127836581" duration="575000" />
+      <workItem from="1651144561902" duration="30000" />
+      <workItem from="1651144610023" duration="2930000" />
+      <workItem from="1651494521753" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1635339366668</created>
@@ -266,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643709743578</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="addJDBC">
+      <created>1649591041155</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649591041155</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +390,8 @@
     <MESSAGE value="sort_search" />
     <MESSAGE value="addvalidation" />
     <MESSAGE value="addvalidation1" />
-    <option name="LAST_COMMIT_MESSAGE" value="addvalidation1" />
+    <MESSAGE value="addJDBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="addJDBC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

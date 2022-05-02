@@ -1,5 +1,9 @@
 package contracts;
 
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlType;
+
 import java.time.LocalDate;
 
 /**
@@ -8,20 +12,25 @@ import java.time.LocalDate;
  * @see Contract
  * @autor Valentina Filonova
  */
+@XmlRootElement(name = "mobileContract")
+@XmlType(propOrder = {"minutes", "sms", "gb" })
 public class MobileContract extends Contract {
     /**
      * Number of minutes
      */
+    @XmlElement
     private  int minutes;
 
     /**
      * Number of messages
      */
+    @XmlElement
     private int sms;
 
     /**
      * Number of gigabytes of internet
      */
+    @XmlElement
     private int gb;
 
     /**
@@ -41,6 +50,7 @@ public class MobileContract extends Contract {
         this.sms = sms;
         this.gb = gb;
     }
+    public MobileContract(){}
 
     /**
      * Function for getting the field value {@link MobileContract#minutes}.

@@ -2,6 +2,7 @@ package mylist;
 
 import contracts.Contract;
 import contracts.IContract;
+import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import java.util.function.Predicate;
 
@@ -10,6 +11,7 @@ import java.util.function.Predicate;
  * @param <T> the type of elements in this list
  * @autor Valentina Filonova
  */
+@XmlJavaTypeAdapter(MyContractList.Adapter.class)
 public interface MyList<T extends IContract> extends Iterable<T>{
     boolean add(T element);
     boolean add(T element, int index);

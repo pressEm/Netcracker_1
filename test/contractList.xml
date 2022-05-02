@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listContract>
+    <contracts>
+        <id>0</id>
+        <start>2019-нояб.-10</start>
+        <end>2022-нояб.-10</end>
+        <num>0</num>
+        <owner>
+            <name>Valentina</name>
+            <birthDate>2001-нояб.-18</birthDate>
+            <age>20</age>
+        </owner>
+    </contracts>
+    <contracts>
+        <id>1</id>
+        <start>2020-нояб.-10</start>
+        <end>2023-нояб.-10</end>
+        <num>1</num>
+        <owner>
+            <name>Alex</name>
+            <birthDate>2000-февр.-28</birthDate>
+            <age>22</age>
+        </owner>
+    </contracts>
+</listContract>

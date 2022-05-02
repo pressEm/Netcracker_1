@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobileContract>
+    <id>1</id>
+    <start>2018-янв.-01</start>
+    <end>2022-окт.-10</end>
+    <num>2</num>
+    <owner>
+        <name>Valentina</name>
+        <birthDate>2001-нояб.-18</birthDate>
+        <age>20</age>
+    </owner>
+    <channels>FOX</channels>
+    <channels>RAIN</channels>
+    <channels>WINTER</channels>
+</mobileContract>

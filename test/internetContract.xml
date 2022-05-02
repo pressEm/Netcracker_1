@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<internetContract>
+    <id>2</id>
+    <start>2018-нояб.-10</start>
+    <end>2023-нояб.-10</end>
+    <num>22</num>
+    <owner>
+        <name>Valentina</name>
+        <birthDate>2001-нояб.-18</birthDate>
+        <age>20</age>
+    </owner>
+    <connectionSpeed>400</connectionSpeed>
+</internetContract>

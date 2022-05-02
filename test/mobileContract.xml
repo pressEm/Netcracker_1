@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobileContract>
+    <id>0</id>
+    <start>2019-нояб.-10</start>
+    <end>2022-нояб.-10</end>
+    <num>0</num>
+    <owner>
+        <name>Alex</name>
+        <birthDate>2000-февр.-28</birthDate>
+        <age>22</age>
+    </owner>
+    <minutes>200</minutes>
+    <sms>20</sms>
+    <gb>2</gb>
+</mobileContract>
